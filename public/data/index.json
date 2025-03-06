@@ -1,0 +1,21 @@
+{
+    "en": {
+        "block1": {
+            "h1": {
+                "text": "Become the Master of ",
+                "span": "AI"
+            },
+            "h2": "Learn how AI can increase your income",
+            "h3": "..and improve your life",
+            "button": "Start Now For Free",
+            "peoples": "More than 554 113 + people joined"
+        },
+        "block2": {
+            "items": [
+                "The interactive nature of courses kept me engaged, making learning less like a chore and more like an enjoyable journey",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. In beatae nisi odio neque nesciunt eum similique, accusantium quas at reiciendis, ipsum ipsam dolorem delectus aspernatur inventore sint tempora quisquam! Quasi.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            ]
+        }
+    }
+}

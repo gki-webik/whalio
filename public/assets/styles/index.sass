@@ -1,0 +1,150 @@
+@import colors
+
+img
+    &:not(.is-use)
+        user-select: none
+        pointer-events: none
+.skeleton
+    width: 100%
+    height: 40px
+    background-color: #ddd
+    border-radius: 5px
+    min-width: 150px
+    margin: 10px 0
+    overflow: hidden
+    position: relative
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: -100%
+        width: 100%
+        height: 100%
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent)
+        animation: shimmer 1.5s infinite
+@keyframes shimmer
+    0%
+        left: -100%
+    100%
+        left: 100%
+
+.block1
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 30px
+    min-height: 100vh
+    padding: 100px 0
+    .left
+        .heading
+            max-width: 550px
+            display: flex
+            flex-direction: column
+            gap: 20px
+            h1
+                font-family: "Open Sans", sans-serif
+                font-weight: 700
+                font-size: 86.43px
+                margin: 0
+                padding: 0
+                animation: textTop 1.5s forwards
+                opacity: 0
+                position: relative
+                span
+                    color: $color-2
+            h2
+                font-family: "Open Sans", sans-serif
+                font-weight: 400
+                font-size: 29.31px
+                margin: 0
+                padding: 0
+                text-align: right
+                opacity: 0
+                animation: textTop 1.5s 0.1s forwards
+                position: relative
+            h3
+                font-family: Open Sans
+                font-weight: 400
+                font-size: 25.73px
+                text-align: right
+                margin: 0
+                padding: 0
+                opacity: 0
+                animation: textTop 1.5s 0.2s forwards
+                position: relative
+
+        button
+            margin-top: 50px
+            border-radius: 22.91px
+            padding: 13.74px 8.02px 13.74px 22.91px
+            border: none
+            color: #ffffff
+            gap: 11.45px
+            background-color: $color-1
+            font-family: "Unbounded", sans-serif
+            font-weight: 400
+            font-size: 34.04px
+            line-height: 100%
+            letter-spacing: 0%
+            display: flex
+            align-items: center
+            justify-content: space-between
+            cursor: pointer
+            transition: 0.15s background-color ease-in-out
+            &:hover
+                background-color: black
+        .peoples
+            display: flex
+            align-items: center
+            margin-top: 50px
+            gap: 20px
+            .images
+                display: flex
+                img
+                    width: 50px
+                    height: 50px
+                    object-fit: cover
+                    border-radius: 9999px
+                    &:not(:first-child)
+                        margin-left: -20px
+.block2
+    .is-paragraph
+        div
+            font-family: "Open Sans", sans-serif
+            font-weight: 600
+            font-size: 31.95px
+            text-align: center
+            padding: 0 20px
+            opacity: 0
+            animation: textLeft 1.5s forwards
+
+    .slider_buttons
+        display: flex
+        margin-top: 20px
+        padding: 20px
+        justify-content: center
+        align-items: center
+        gap: 10px
+        span
+            display: block
+            width: 34px
+            height: 34px
+            border-radius: 3px
+            cursor: pointer
+            background-color: #D9D9D9
+            transition: 0.15s background-color ease-in-out
+            &.is-active
+                background-color: $color-1
+@keyframes textTop
+    0%
+        opacity: 0
+        top: -20px
+    100%
+        top: 0px
+        opacity: 1
+
+@keyframes textLeft
+    0%
+        opacity: 0
+    100%
+        opacity: 1
