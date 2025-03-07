@@ -34,13 +34,22 @@ img
     justify-content: space-between
     gap: 30px
     min-height: 100vh
-    padding: 100px 0
+    padding: 100px 20px 100px 20px
+    @media screen and (max-width: 860px)
+        justify-content: center
+        flex-direction: column-reverse
     .left
+        width: 100%
         .heading
             max-width: 550px
             display: flex
             flex-direction: column
             gap: 20px
+            @media screen and (max-width: 860px)
+                justify-content: center
+                width: 100%
+                align-items: center
+                max-width: 1000px
             h1
                 font-family: "Open Sans", sans-serif
                 font-weight: 700
@@ -50,6 +59,23 @@ img
                 animation: textTop 1.5s forwards
                 opacity: 0
                 position: relative
+                @media screen and (max-width: 1175px)
+                    font-size: 76.43px
+                @media screen and (max-width: 1022px)
+                    font-size: 73.43px
+                @media screen and (max-width: 980px)
+                    font-size: 67.43px
+                @media screen and (max-width: 905px)
+                    font-size: 63.43px
+                @media screen and (max-width: 860px)
+                    text-align: center
+                    font-size: 58.43px
+                @media screen and (max-width: 760px)
+                    font-size: 53.43px
+                @media screen and (max-width: 650px)
+                    font-size: 50.43px
+                @media screen and (max-width:560px)
+                    font-size: 46px
                 span
                     color: $color-2
             h2
@@ -62,6 +88,14 @@ img
                 opacity: 0
                 animation: textTop 1.5s 0.1s forwards
                 position: relative
+                @media screen and (max-width: 1175px)
+                    font-size: 27.31px
+                @media screen and (max-width: 1088px)
+                    font-size: 24.31px
+                @media screen and (max-width: 980px)
+                    font-size: 20.31px
+                @media screen and (max-width: 860px)
+                    text-align: center
             h3
                 font-family: Open Sans
                 font-weight: 400
@@ -72,6 +106,12 @@ img
                 opacity: 0
                 animation: textTop 1.5s 0.2s forwards
                 position: relative
+                @media screen and (max-width: 1088px)
+                    font-size: 22.31px
+                @media screen and (max-width: 980px)
+                    font-size: 20px
+                @media screen and (max-width: 860px)
+                    text-align: center
 
         button
             margin-top: 50px
@@ -91,6 +131,15 @@ img
             justify-content: space-between
             cursor: pointer
             transition: 0.15s background-color ease-in-out
+            @media screen and (max-width: 1042px)
+                font-size: 20.91px
+            @media screen and (max-width: 860px)
+                margin: 20px auto
+                padding: 7.04px 4.11px 7.04px 11.73px
+            @media screen and (max-width: 700px)
+                font-size: 17.43px
+                img
+                    width: 30px
             &:hover
                 background-color: black
         .peoples
@@ -107,7 +156,28 @@ img
                     border-radius: 9999px
                     &:not(:first-child)
                         margin-left: -20px
+    .right
+        width: 100%
+        img
+            max-width: 500px
+            width: 100%
+        @media screen and (max-width: 860px)
+            display: flex
+            justify-content: center
+            margin-top: 30px
+            img
+                max-width: 400px
 .block2
+    padding: 0 20px
+    min-height: 300px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    @media screen and (max-width: 1100px)
+        min-height: 100px
+    @media screen and (max-width: 544px)
+        min-height: auto
     .is-paragraph
         div
             font-family: "Open Sans", sans-serif
@@ -117,6 +187,12 @@ img
             padding: 0 20px
             opacity: 0
             animation: textLeft 1.5s forwards
+            @media screen and (max-width: 980px)
+                font-size: 27.95px
+            @media screen and (max-width: 675px)
+                font-size: 24.95px
+            @media screen and (max-width: 505px)
+                font-size: 20.95px
 
     .slider_buttons
         display: flex
@@ -130,9 +206,13 @@ img
             width: 34px
             height: 34px
             border-radius: 3px
-            cursor: pointer
             background-color: #D9D9D9
             transition: 0.15s background-color ease-in-out
+            @media screen and (max-width: 675px)
+                width: 27px
+                height: 27px
+            &:not(.is-active)
+                cursor: pointer
             &.is-active
                 background-color: $color-1
 @keyframes textTop
@@ -148,3 +228,377 @@ img
         opacity: 0
     100%
         opacity: 1
+
+.block3
+    margin-top: 160px
+    display: flex
+    padding: 0 20px
+    @media screen and (max-width: 860px)
+        margin-top: 90px
+    @media screen and (max-width: 544px)
+        margin-top: 50px
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 47.49px
+        max-width: 800px
+        @media screen and (max-width: 1250px)
+            font-size: 40.49px
+        @media screen and (max-width: 1060px)
+            font-size: 35.49px
+        @media screen and (max-width: 860px)
+            text-align: center
+        @media screen and (max-width: 500px)
+            font-size: 27.49px
+        span
+            color: $color-1
+    h3
+        font-family: "Open Sans", sans-serif
+        font-weight: 400
+        font-size: 28.96px
+        max-width: 800px
+        @media screen and (max-width: 1250px)
+            font-size: 23.96px
+        @media screen and (max-width: 1060px)
+            font-size: 19.96px
+        @media screen and (max-width: 860px)
+            text-align: center
+        @media screen and (max-width: 500px)
+            font-size: 16.96px
+    .box
+        display: flex
+        width: 100%
+        justify-content: space-between
+        max-width: 1100px
+        gap: 15px
+        margin: 40px 0
+    .container
+        display: flex
+    .left
+        width: 100%
+    .list
+        display: flex
+        flex-direction: column
+        gap: 5px
+        &:not(.is-text)
+            align-items: center
+        &.is-text
+            margin-left: 20px
+            .div-text
+                height: 100%
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+        .item.is-circle
+            border-radius: 9999px
+            border: 11px solid $color-1
+            width: 70px
+            height: 70px
+            @media screen and (max-width: 745px)
+                width: 40px
+                height: 40px
+                border: 7px solid $color-1
+            @media screen and (max-width: 503px)
+                width: 30px
+                height: 30px
+                border: 5px solid $color-1
+        .item.is-dashed
+            width: 5px
+            height: 85px
+            border-right: 5px dashed $color-1
+            @media screen and (max-width: 1250px)
+                height: 70px
+            @media screen and (max-width: 958px)
+                height: 50px
+            @media screen and (max-width: 745px)
+                height: 57px
+            @media screen and (max-width: 620px)
+                height: 32px
+            @media screen and (max-width: 503px)
+                height: 20px
+                border-right: 3px dashed $color-1
+            @media screen and (max-width: 387px)
+                height: 32px
+            @media screen and (max-width: 372px)
+                height: 50px
+        .title
+            font-family: "Open Sans", sans-serif
+            font-weight: 600
+            font-size: 30.12px
+            @media screen and (max-width: 1250px)
+                font-size: 20.96px
+            @media screen and (max-width: 745px)
+                font-size: 17.96px
+            @media screen and (max-width: 620px)
+                font-size: 14.96px
+            @media screen and (max-width: 503px)
+                font-size: 12.96px
+            @media screen and (max-width: 355px)
+                font-size: 10.96px
+        .description
+            font-family: "Open Sans", sans-serif
+            font-weight: 400
+            font-size: 19.28px
+            max-width: 500px
+            @media screen and (max-width: 1250px)
+                font-size: 17.96px
+            @media screen and (max-width: 745px)
+                font-size: 13.96px
+            @media screen and (max-width: 620px)
+                font-size: 10.96px
+            @media screen and (max-width: 503px)
+                font-size: 7px
+    .box
+        img
+            max-height: 578px
+            @media screen and (max-width: 1250px)
+                max-height: 500px
+            @media screen and (max-width: 958px)
+                max-height: 470px
+            @media screen and (max-width: 745px)
+                max-height: 370px
+            @media screen and (max-width: 620px)
+                max-height: 300px
+            @media screen and (max-width: 503px)
+                max-height: 200px
+
+.block4
+    margin-top: 100px
+    padding: 0 20px
+    @media screen and (min-width: 550px)
+        display: none
+    @media screen and (max-width: 620px)
+        margin-top: 50px
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 27.49px
+        text-align: center
+    h3
+        font-family: "Open Sans", sans-serif
+        font-weight: 500
+        font-size: 15.77px
+        text-align: center
+    .cards
+        display: flex
+        gap: 30px
+        margin-top: 40px
+        flex-direction: column
+        .card
+            max-width: 450px
+            margin: 0 auto
+            .top
+                font-family: "Open Sans", sans-serif
+                font-weight: 700
+                font-size: 20.19px
+                display: flex
+                align-items: center
+                gap: 10px
+                img
+                    width: 30px
+                    height: auto
+            .bottom
+                font-family: "Open Sans", sans-serif
+                font-weight: 400
+                font-size: 13.55px
+                margin-left: 40px
+                margin-top: 10px
+
+.block5
+    margin-top: 100px
+    position: relative
+    padding: 0 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    min-height: 60vh
+    @media screen and (max-width: 735px)
+        min-height: 10vh
+        margin-top: 70px
+    h2
+        text-align: center
+        max-width: 900px
+        margin: 0 auto
+        position: relative
+        z-index: 9
+        @media screen and (max-width: 918px)
+            font-size: 50.85px
+        @media screen and (max-width: 735px)
+            font-family: "Open Sans", sans-serif
+            font-weight: 700
+            font-size: 20.16px
+        @media screen and (min-width: 736px)
+            font-family: "Open Sans", sans-serif
+            font-weight: 600
+            font-size: 56.85px
+
+        span
+            color: $color-1
+    img
+        &.is-1
+            position: absolute
+            top: -100px
+            right: 400px
+            @media screen and (max-width: 890px)
+                right: 200px
+            @media screen and (max-width: 735px)
+                display: none
+        &.is-2
+            position: absolute
+            top: 230px
+            right: 50px
+            @media screen and (max-width: 1030px)
+                top: 290px
+            @media screen and (max-width: 829px)
+                top: 350px
+            @media screen and (max-width: 735px)
+                display: none
+        &.is-3
+            position: absolute
+            left: 0px
+            top: -30px
+            @media screen and (max-width: 735px)
+                display: none
+        &.is-4
+            position: absolute
+            bottom: 30px
+            left: 0px
+            @media screen and (max-width: 735px)
+                display: none
+        &.is-5
+            transform: rotateY(180deg)
+            @media screen and (min-width: 736px)
+                display: none
+            @media screen and (max-width: 408px)
+                max-width: 150px
+                width: 100%
+            @media screen and (max-width: 342px)
+                max-width: 120px
+                width: 100%
+        &.is-6
+            @media screen and (min-width: 736px)
+                display: none
+            @media screen and (max-width: 408px)
+                max-width: 150px
+                width: 100%
+            @media screen and (max-width: 342px)
+                max-width: 120px
+                width: 100%
+    .images-delphi
+        @media screen and (max-width: 735px)
+            display: flex
+            margin-top: 40px
+    .mobile-btns
+        display: flex
+        gap: 10px
+        margin-top: 20px
+        @media screen and (min-width: 736px)
+            display: none
+    button
+        &.is-1
+            margin-top: 50px
+            border-radius: 22.91px
+            padding: 13.74px 8.02px 13.74px 22.91px
+            border: none
+            color: #ffffff
+            gap: 11.45px
+            background-color: $color-1
+            font-family: "Unbounded", sans-serif
+            font-weight: 400
+            font-size: 34.04px
+            line-height: 100%
+            letter-spacing: 0%
+            display: flex
+            margin: 50px auto
+            align-items: center
+            justify-content: space-between
+            cursor: pointer
+            transition: 0.15s background-color ease-in-out
+            @media screen and (max-width: 735px)
+                display: none
+            @media screen and (max-width: 1042px)
+                font-size: 20.91px
+            @media screen and (max-width: 860px)
+                margin: 20px auto
+                padding: 7.04px 4.11px 7.04px 11.73px
+            @media screen and (max-width: 700px)
+                font-size: 17.43px
+                img
+                    width: 30px
+        &.is-2,
+        &.is-3
+            background-color: #6FA4EE
+            max-width: 200px
+            padding: 5px 7px
+            border-radius: 13.33px
+            border: none
+            display: flex
+            gap: 10px
+            align-items: center
+            justify-content: center
+            color: #fff
+            transition: 0.15s background-color ease-in-out
+            cursor: pointer
+            font-family: "Open Sans", sans-serif
+            font-weight: 700
+            font-size: 14.82px
+
+        &:hover
+            background-color: black
+.block6
+    margin-top: 140px
+    padding: 0 20px
+    @media screen and (max-width: 860px)
+        margin-top: 90px
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 77.22px
+        max-width: 800px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 67.22px
+        @media screen and (max-width: 1060px)
+            font-size: 50.22px
+        @media screen and (max-width: 500px)
+            font-size: 33.49px
+        span
+            color: $color-1
+    h3
+        font-family: "Open Sans", sans-serif
+        font-weight: 600
+        font-size: 35px
+        text-align: center
+        max-width: 800px
+        margin-top: 15px
+        padding-top: 0
+        margin-left: auto
+        margin-right: auto
+        @media screen and (max-width: 1250px)
+            font-size: 23.96px
+        @media screen and (max-width: 1060px)
+            font-size: 19.96px
+        @media screen and (max-width: 500px)
+            font-size: 16.96px
+    .container
+        margin-top: 100px
+        .box1
+            .step
+                max-width: 700px
+                width: 100%
+                .name
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 700
+                    font-size: 34.31px
+                .description
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 400
+                    margin-top: 15px
+                    font-size: 24.01px
+            .plan
+                background-color: $color-1

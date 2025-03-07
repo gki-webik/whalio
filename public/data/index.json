@@ -16,6 +16,113 @@
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit. In beatae nisi odio neque nesciunt eum similique, accusantium quas at reiciendis, ipsum ipsam dolorem delectus aspernatur inventore sint tempora quisquam! Quasi.",
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit."
             ]
+        },
+        "block3": {
+            "h2": {
+                "main": "Why people love ",
+                "span": "Whalio"
+            },
+            "h3": "Thousands of users trust Whalio to learn AI. Get the tools, skills, and confidemce to grow in your career.",
+            "list": [
+                {
+                    "title": "Quick and easy follow",
+                    "description": "Learn AI in just 15 minutes a day—perfect for any age or experience level."
+                },
+                {
+                    "title": "Multiple learning formats",
+                    "description": "Choose from audio lessons, step-by-step guides, and interactive courses to suit your style."
+                },
+                {
+                    "title": "Accessible anytime, anywhere",
+                    "description": "Our app is available on both the App Store and Play Market for learning on the go."
+                },
+                {
+                    "title": "Practical and actionable",
+                    "description": "Gain hands-on experience with our AI tools which you can apply immediately to increase income-potential."
+                }
+            ]
+        },
+        "block4": {
+            "h2": "Choose Your Path",
+            "h3": "Explore different paths where you could apply AI that will help you succeed in today’s digital world.",
+            "items": [
+                {
+                    "title": "Ai income",
+                    "description": "Learn to use AI tools to create new income streams and grow your earnings online"
+                },
+                {
+                    "title": "AI-powered business",
+                    "description": "Use tools to automate workflows, analyze data, and make smarter decisions that save time and money"
+                },
+                {
+                    "title": "AI Content Creation",
+                    "description": "Quickly produce high-quality content for blogs, websites, and social media with AI"
+                },
+                {
+                    "title": "AI-productivity",
+                    "description": "Somplify your daily tasks with AI tools that save time and increase efficiency"
+                },
+                {
+                    "title": "AI affiliate marketing",
+                    "description": "Use AI to find products, promotions, and increase affiliate earnings easily"
+                },
+                {
+                    "title": "AI-marketing",
+                    "description": "Learn how to increase sales with AI-driven tools for ads, social media, and more..."
+                }
+            ]
+        },
+        "block5": {
+            "h2": {
+                "main": "Increase your income potential with ",
+                "span": "Whalio"
+            },
+            "button": "Start Now For Free",
+            "mobileButton": [
+                "Telegram",
+                "Start Web"
+            ]
+        },
+        "block6": {
+            "h2": [
+                "How",
+                " Whalio ",
+                "works"
+            ],
+            "h3": "Learn at your own pace and discover how AI and digital tools can help you grow",
+            "items": [
+                {
+                    "title": "Step 1: Get your personal learning plan",
+                    "description": "You begin by defining your unique goals and needs. From there, a personalized learning plan is created to help you focus on the most relevant skills and tools, ensuring you stay on track and motivated."
+                },
+                {
+                    "title": "Step 2: Learn the skills you need",
+                    "description": "Our easy-to-follow lessons will guide you through practical, hands-on learning. You’ll master the AI tools and other skills that fit your goals, making learning simple and efficient—without overwhelming you."
+                },
+                {
+                    "title": "Step 3: Master AI for your goals",
+                    "description": "Once you’ve learned the basics, you’ll dive deeper into applying AI to achieve your personal and professional objectives. With each skill mastered, you’ll gain the confidence to use AI to boost your productivity, income, and success."
+                }
+            ],
+            "plan": {
+                "title": "Your Plan is Ready!",
+                "description": "Let’s dive into the steps you’ll take to become an AI expert and integrate these powerful tools into your daily life.",
+                "name": "AI Mastery",
+                "structure": "28 modules",
+                "steps": [
+                    "START",
+                    "Step 1",
+                    "Step 2",
+                    "Step 3"
+                ]
+            },
+            "steps": [
+                "START",
+                "Basic usage",
+                "Crafting simple prompts",
+                "Wonderful!",
+                "Continue"
+            ]
         }
     }
 }

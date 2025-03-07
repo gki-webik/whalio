@@ -11,6 +11,8 @@ header
     left: 0
     z-index: 99999999
     width: 100%
+    @media screen and (max-width: 750px)
+        height: 70px
     .main_center
         max-width: 1350px
         display: flex
@@ -20,9 +22,14 @@ header
         height: 100px
         margin: 0 auto
         padding: 10px 20px
+        @media screen and (max-width: 750px)
+            height: 70px
         .left
             display: flex
             align-items: center
+            @media screen and (max-width: 750px)
+                justify-content: center
+                width: 100%
         .logo
             img
                 height: 53px
@@ -33,6 +40,8 @@ header
             display: flex
             align-items: center
             height: 100%
+            @media screen and (max-width: 750px)
+                display: none
             &.is-1
                 gap: 70px
                 margin-left: 50px

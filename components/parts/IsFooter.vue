@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div @click="this.$emit('change-lang', 'ru')">сменить</div>
+    <!-- <div @click="this.$emit('change-lang', 'ru')">сменить</div>
     <footer>
       <div>footer</div>
     </footer>
-    {{ data[currentLang].a1 }}
+    {{ data[currentLang].a1 }} -->
   </div>
 </template>
 
