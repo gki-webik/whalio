@@ -123,6 +123,119 @@
                 "Wonderful!",
                 "Continue"
             ]
+        },
+        "block7": {
+            "h2": [
+                "Whalio ",
+                "in action"
+            ],
+            "items": [
+                {
+                    "count": "554k+",
+                    "totalCount": "554 123",
+                    "description": "Users learned new skills"
+                },
+                {
+                    "count": "3 732k+",
+                    "totalCount": "3 732 501",
+                    "description": "Minutes of content consuming"
+                },
+                {
+                    "count": "59k+",
+                    "totalCount": "59 065",
+                    "description": "AI prompts written"
+                }
+            ]
+        },
+        "block8": {
+            "h2": "Earn a certificate that proves your AI skills",
+            "p": "Complete your AI course to highlight your expertise. It’s proof of the valuable skills you’ve gained to tackle challenges, achieve your goals, and move forward in your career or personal projects. ",
+            "button": "Get Certificate Today"
+        },
+        "block9": {
+            "h2": [
+                "See how",
+                " Whalio ",
+                "changes lives"
+            ],
+            "items": [
+                {
+                    "photo": "/assets/images/p4.jpg",
+                    "text": "As someone knowledgeable in AI, I sought to enhance my understanding of using AI for income sources. Coursiv simplified this journey with its clear and easy follow courses. I gained a lot of knowledge, and Coursiv brought attention to several key points that I had previously missed.",
+                    "name": "Regina Brown"
+                },
+                {
+                    "photo": "/assets/images/p6.jpg",
+                    "text": "I have been searching for AI lessons to help me reach my career objectives. I decided to invest in Coursiv, and I have no regrets about that choice. Coursiv offers prompts and a step-by-step teaching approach that motivates and rewards the learning experience.",
+                    "name": "Amanda K."
+                },
+                {
+                    "photo": "/assets/images/p7.jpg",
+                    "text": "I gained valuable insights and practical skills that I can apply in my own work. The course promotes interactive learning, enabling you to practice what you've learned through hands-on activities.",
+                    "name": "Corey Rein"
+                }
+            ]
+        },
+        "block10": {
+            "h2": "Learn new AI every day in our 29-day Challenge",
+            "h3": "Don’t let your goals overwhelm you. Learn AI skills tailored to your needs and everyday tasks.",
+            "h4": "AI Mastery",
+            "items": [
+                {
+                    "photo": "/assets/images/ai8.png",
+                    "name": "Day 1"
+                },
+                {
+                    "photo": "/assets/images/ai9.png",
+                    "name": "Day 2"
+                },
+                {
+                    "photo": "/assets/images/ai10.png",
+                    "name": "Day 3"
+                },
+                {
+                    "photo": "/assets/images/ai11.png",
+                    "name": "Day 4"
+                },
+                {
+                    "photo": "/assets/images/ai12.png",
+                    "name": "Day 5"
+                },
+                {
+                    "photo": "/assets/images/ai13.png",
+                    "name": "Day 6"
+                },
+                {
+                    "photo": "/assets/images/ai14.png",
+                    "name": "Day 7"
+                },
+                {
+                    "photo": "/assets/images/ai15.png",
+                    "name": "Day 8"
+                }
+            ],
+            "button": "Join Our Challenge"
+        },
+        "block11": {
+            "h2": "FAQ",
+            "p": [
+                "Find answers to common questions about ",
+                "Whalio"
+            ],
+            "items": [
+                {
+                    "question": "What is Whalio?",
+                    "answer": "What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?"
+                },
+                {
+                    "question": "How to download and use Whalio?",
+                    "answer": "What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?"
+                },
+                {
+                    "question": "How to log into Whalio?",
+                    "answer": "What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?"
+                }
+            ]
         }
     }
 }

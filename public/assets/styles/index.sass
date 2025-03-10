@@ -34,9 +34,11 @@ img
     justify-content: space-between
     gap: 30px
     min-height: 100vh
-    padding: 100px 20px 100px 20px
+    padding: 160px 20px 100px 20px
     @media screen and (max-width: 860px)
         justify-content: center
+        margin-top: 0px
+        padding-top: 80px
         flex-direction: column-reverse
     .left
         width: 100%
@@ -147,6 +149,11 @@ img
             align-items: center
             margin-top: 50px
             gap: 20px
+            @media screen and (max-width: 860px)
+                justify-content: center
+            @media screen and (max-width: 550px)
+                gap: 10px
+                margin-top: 30px
             .images
                 display: flex
                 img
@@ -154,8 +161,20 @@ img
                     height: 50px
                     object-fit: cover
                     border-radius: 9999px
+                    @media screen and (max-width: 550px)
+                        width: 40px
+                        height: 40px
+                    @media screen and (max-width: 400px)
+                        width: 30px
+                        height: 30px
                     &:not(:first-child)
                         margin-left: -20px
+            @media screen and (max-width: 550px)
+                span
+                    font-size: 15px
+            @media screen and (max-width: 550px)
+                span
+                    font-size: 9px
     .right
         width: 100%
         img
@@ -587,18 +606,790 @@ img
             font-size: 16.96px
     .container
         margin-top: 100px
+        @media screen and (max-width: 753px)
+            margin-top: 50px
         .box1
+            display: flex
+            justify-content: space-between
+            gap: 30px
+            @media screen and (max-width: 770px)
+                flex-direction: column
+                align-items: center
             .step
                 max-width: 700px
                 width: 100%
                 .name
                     font-family: "Open Sans", sans-serif
-                    font-weight: 700
-                    font-size: 34.31px
+                    font-weight: 600
+                    font-size: 24.31px
+                    @media screen and (max-width: 950px)
+                        font-size: 22.01px
+                    @media screen and (max-width: 840px)
+                        font-size: 20.01px
                 .description
                     font-family: "Open Sans", sans-serif
                     font-weight: 400
                     margin-top: 15px
-                    font-size: 24.01px
+                    font-size: 22.01px
+                    @media screen and (max-width: 950px)
+                        font-size: 20.01px
+                    @media screen and (max-width: 840px)
+                        font-size: 18.01px
             .plan
                 background-color: $color-1
+                padding: 20px
+                border-radius: 10px
+                color: #fff
+                max-width: 450px
+                width: 100%
+                .title
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 600
+                    font-size: 24.31px
+                    @media screen and (max-width: 445px)
+                        font-size: 22.31px
+                .description
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 400
+                    margin-top: 10px
+                    font-size: 14.84px
+                    @media screen and (max-width: 445px)
+                        font-size: 12.84px
+                .line
+                    display: flex
+                    gap: 10px
+                    padding: 20px 0
+                    justify-content: space-between
+                    .name
+                        font-family: "Open Sans", sans-serif
+                        font-weight: 700
+                        font-size: 19.89px
+                        @media screen and (max-width: 445px)
+                            font-size: 17.89px
+
+                    .structure
+                        font-family: "Open Sans", sans-serif
+                        font-weight: 700
+                        font-size: 19.53px
+                        @media screen and (max-width: 445px)
+                            font-size: 17.53px
+                .items
+                    display: flex
+                    gap: 10px
+                    justify-content: space-between
+                    .item
+                        display: flex
+                        flex-direction: column
+                        position: relative
+                        text-align: center
+                        gap: 7px
+                        @media screen and (max-width: 445px)
+                            font-size: 12px
+                        img
+                            @media screen and (max-width: 445px)
+                                width: 60px
+                            @media screen and (max-width: 365px)
+                                width: 45px
+                            &.is-1
+                                position: absolute
+                                left: 27%
+                                top: 22%
+                                @media screen and (max-width: 445px)
+                                    width: 27px
+                                @media screen and (max-width: 365px)
+                                    width: 19px
+                                    top: 19%
+                            &.is-opacity
+                                opacity: 0
+                        &.is-start
+                            border: 4px dashed #fff
+                            width: 85px
+                            height: 85px
+                            border-radius: 20px 0 20px 0
+                            @media screen and (max-width: 445px)
+                                width: 60px
+                                height: 60px
+                                border-radius: 15px 0 15px 0
+                            @media screen and (max-width: 365px)
+                                width: 50px
+                                height: 50px
+                            img.is-1
+                                left: 30%
+                                top: 30%
+                                @media screen and (max-width: 445px)
+                                    width: 23px
+                                @media screen and (max-width: 365px)
+                                    width: 17px
+
+        .box2
+            margin-top: 70px
+            margin-left: 70px
+            position: relative
+            @media screen and (max-width: 935px)
+                margin-left: 20px
+                margin-top: 260px
+            @media screen and (max-width: 440px)
+                margin-left: 0
+            @media screen and (max-width: 386px)
+                margin-top: 310px
+            @media screen and (max-width: 310px)
+                margin-top: 350px
+            img
+                &.is-1
+                    max-width: 400px
+                    width: 100%
+                    @media screen and (max-width: 759px)
+                        max-width: 270px
+                &.is-2
+                    max-width: 200px
+                    width: 100%
+                    position: absolute
+                    right: 110px
+                    bottom: -520px
+                    @media screen and (max-width: 759px)
+                        max-width: 120px
+                    @media screen and (max-width: 759px)
+                        right: auto
+                        left: 270px
+                        bottom: -400px
+                    @media screen and (max-width: 507px)
+                        left: 220px
+                        bottom: -420px
+                    @media screen and (max-width: 390px)
+                        max-width: 95px
+                        left: 200px
+                    @media screen and (max-width: 338px)
+                        max-width: 60px
+                        left: 200px
+                        bottom: -400px
+            .r1
+                position: absolute
+                width: 200px
+                height: 500px
+                left: 125px
+                top: 245px
+                border:
+                    top: 6px solid rgba(229, 231, 235, 1)
+                    right: 6px solid rgba(229, 231, 235, 1)
+                    radius: 0 5px 0 0
+                @media screen and (max-width: 1151px)
+                    width: 100px
+                @media screen and (max-width: 759px)
+                    top: 167px
+                    left: 88px
+                    height: 400px
+                    width: 250px
+                @media screen and (max-width: 507px)
+                    width: 200px
+                @media screen and (max-width: 390px)
+                    width: 160px
+                @media screen and (max-width: 338px)
+                    width: 140px
+
+            .r2
+                position: absolute
+                width: 60%
+                height: 20px
+                left: 319px
+                bottom: -445px
+                border-top: 6px solid #e5e7eb
+                @media screen and (max-width: 1223px)
+                    width: 50%
+                @media screen and (max-width: 1151px)
+                    left: 219px
+                @media screen and (max-width: 759px)
+                    display: none
+            .text
+                position: absolute
+                max-width: 700px
+                right: 100px
+                top: 400px
+                @media screen and (max-width: 1275px)
+                    max-width: 600px
+                    right: 70px
+                @media screen and (max-width: 1049px)
+                    max-width: 500px
+                @media screen and (max-width: 900px)
+                    max-width: 450px
+                    right: 50px
+                @media screen and (max-width: 830px)
+                    max-width: 430px
+                    right: 0px
+                @media screen and (max-width: 759px)
+                    max-width: 900px
+                    left: 20px
+                    right: 20px
+                @media screen and (max-width: 759px)
+                    top: -180px
+                @media screen and (max-width: 408px)
+                    left: 0px
+                    right: 0
+                @media screen and (max-width: 386px)
+                    top: -250px
+                @media screen and (max-width: 310px)
+                    top: -290px
+                .name
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 600
+                    font-size: 24.31px
+                    @media screen and (max-width: 1049px)
+                        font-size: 22px
+                    @media screen and (max-width: 950px)
+                        font-size: 20.01px
+                .description
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 400
+                    margin-top: 15px
+                    font-size: 22.01px
+                    @media screen and (max-width: 1049px)
+                        font-size: 20px
+                    @media screen and (max-width: 950px)
+                        font-size: 18.01px
+        .box3
+            margin-top: 600px
+            display: flex
+            @media screen and (max-width: 759px)
+                margin-top: 30px
+                gap: 40px
+                position: relative
+                z-index: 10
+                flex-direction: column
+            .left
+                width: 100%
+                .text
+                    max-width: 700px
+                    width: 100%
+                    .name
+                        font-family: "Open Sans", sans-serif
+                        font-weight: 600
+                        font-size: 24.31px
+                        @media screen and (max-width: 1049px)
+                            font-size: 22px
+                        @media screen and (max-width: 950px)
+                            font-size: 20.01px
+                    .description
+                        font-family: "Open Sans", sans-serif
+                        font-weight: 400
+                        margin-top: 15px
+                        font-size: 22.01px
+                        @media screen and (max-width: 1049px)
+                            font-size: 20px
+                        @media screen and (max-width: 950px)
+                            font-size: 18.01px
+            .right
+                width: 100%
+                padding-left: 100px
+                display: flex
+                flex-direction: column
+                max-width: 500px
+                @media screen and (max-width: 759px)
+                    padding-left: 0px
+                    max-width: 900px
+                .top
+                    display: flex
+                    gap: 30px
+                    align-items: center
+                    font-family: "Open Sans", sans-serif
+                    font-weight: 700
+                    font-size: 40.12px
+                    @media screen and (max-width: 950px)
+                        font-size: 36.12px
+                    @media screen and (max-width: 759px)
+                        font-size: 27.12px
+                        img
+                            max-width: 50px
+                            width: 100%
+                            @media screen and (max-width: 507px)
+                                max-width: 40px
+                    @media screen and (max-width: 507px)
+                        gap: 15px
+                        font-size: 22.12px
+                    @media screen and (max-width: 440px)
+                        font-size: 20.12px
+
+                button
+                    margin-top: 15px
+                    padding: 10px
+                    height: 70px
+                    border: none
+                    color: #ffffff
+                    font-family: "Unbounded", sans-serif
+                    font-weight: 300
+                    font-size: 27.42px
+                    text-align: center
+                    cursor: pointer
+                    border-radius: 10px
+                    background-color: rgba(45, 173, 67, 1)
+                    transition: background-color 0.1s ease-in-out
+                    @media screen and (max-width: 950px)
+                        font-size: 23.42px
+                    @media screen and (max-width: 759px)
+                        font-size: 18.42px
+                        height: 50px
+                        max-width: 250px
+                    @media screen and (max-width: 507px)
+                        max-width: 190px
+                    @media screen and (max-width: 440px)
+                        max-width: 170px
+                    &:hover
+                        background-color: black
+
+.block7
+    margin-top: 230px
+    max-width: 1700px
+    margin-left: auto
+    margin-right: auto
+    position: relative
+    @media screen and (max-width: 860px)
+        margin-top: 190px
+    @media screen and (max-width: 666px)
+        color: #fff
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 77.22px
+        max-width: 800px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 67.22px
+        @media screen and (max-width: 1060px)
+            font-size: 50.22px
+        @media screen and (max-width: 700px)
+            font-size: 40.49px
+        @media screen and (max-width: 500px)
+            font-size: 33.49px
+        @media screen and (max-width: 666px)
+            position: absolute
+            top: 40px
+            z-index: 50
+            margin-left: auto
+            margin-right: auto
+            width: 100%
+        span
+            @media screen and (min-width: 667px)
+                color: $color-1
+    .img
+        position: relative
+        img
+            width: 100%
+            @media screen and (max-width: 666px)
+                height: 70vh
+                object-fit: cover
+            @media screen and (max-width:450px)
+                height: 90vh
+        .mask
+            height: 80px
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0))
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+            @media screen and (max-width: 666px)
+                background: rgba(25, 103, 210, 0.65)
+                height: 70vh
+                top: 0
+            @media screen and (max-width:450px)
+                height: 90vh
+    .items
+        display: flex
+        gap: 10px
+        width: 100%
+        margin: 60px 0
+        @media screen and (max-width: 666px)
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            position: absolute
+            z-index: 999
+            height: 70vh
+            gap: 40px
+        @media screen and (max-width:450px)
+            height: 90vh
+        .item
+            display: flex
+            flex-direction: column
+            gap: 10px
+            align-items: center
+            justify-content: center
+            flex: 1 1 calc(100% / 3 - 10px)
+            @media screen and (max-width: 666px)
+                flex: inherit
+                margin: 0 auto
+            .count
+                font-family: "Open Sans", sans-serif
+                font-weight: 700
+                font-size: 51.43px
+                @media screen and (max-width: 1000px)
+                    font-size: 47px
+                @media screen and (max-width: 922px)
+                    font-size: 40px
+                @media screen and (max-width: 762px)
+                    font-size: 36px
+            .totalCount
+                font-family: "Open Sans", sans-serif
+                font-weight: 600
+                font-size: 22.29px
+                color: rgba(25, 103, 210, 1)
+                @media screen and (max-width: 1000px)
+                    font-size: 19px
+                @media screen and (max-width: 922px)
+                    font-size: 16px
+                @media screen and (max-width: 762px)
+                    font-size: 14px
+                @media screen and (max-width: 666px)
+                    color: #fff
+            .description
+                font-family: "Open Sans", sans-serif
+                font-weight: 600
+                text-align: center
+                font-size: 22.29px
+                @media screen and (max-width: 1000px)
+                    font-size: 20px
+                @media screen and (max-width: 922px)
+                    font-size: 16px
+                @media screen and (max-width: 762px)
+                    font-size: 14px
+.block8
+    margin-top: 160px
+    display: flex
+    padding: 0 20px
+    gap: 20px
+    @media screen and (max-width: 860px)
+        margin-top: 90px
+    @media screen and (max-width: 544px)
+        margin-top: 50px
+    @media screen and (max-width: 981px)
+        flex-direction: column
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 47.49px
+        max-width: 800px
+        @media screen and (max-width: 1250px)
+            font-size: 40.49px
+        @media screen and (max-width: 1060px)
+            font-size: 35.49px
+        @media screen and (max-width: 500px)
+            font-size: 27.49px
+    p
+        font-family: "Open Sans", sans-serif
+        font-weight: 600
+        font-size: 14.12px
+        max-width: 800px
+        margin-top: 0
+        @media screen and (max-width: 500px)
+            font-size: 12.12px
+    .left
+        display: flex
+        flex-direction: column
+        width: 100%
+        button
+            margin-top: 50px
+            border-radius: 22.91px
+            padding: 13.74px 8.02px 13.74px 22.91px
+            border: none
+            color: #ffffff
+            gap: 11.45px
+            background-color: $color-1
+            font-family: "Unbounded", sans-serif
+            font-weight: 400
+            font-size: 34.04px
+            line-height: 100%
+            letter-spacing: 0%
+            display: flex
+            width: max-content
+            align-items: center
+            justify-content: space-between
+            cursor: pointer
+            transition: 0.15s background-color ease-in-out
+            @media screen and (max-width: 1142px)
+                font-size: 20.91px
+            @media screen and (max-width: 860px)
+                margin: 20px 0
+                padding: 7.04px 4.11px 7.04px 11.73px
+            @media screen and (max-width: 700px)
+                font-size: 17.43px
+                img
+                    width: 30px
+            &:hover
+                background-color: black
+    .right
+        width: 100%
+        img
+            width: 100%
+            box-shadow: 0 4.39px 4.39px rgba(0, 0, 0, 0.37)
+.block9
+    margin-top: 230px
+    max-width: 1700px
+    margin-left: auto
+    margin-right: auto
+    padding: 0 20px
+    position: relative
+    @media screen and (max-width: 860px)
+        margin-top: 80px
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 77.22px
+        max-width: 1200px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 67.22px
+        @media screen and (max-width: 1060px)
+            font-size: 50.22px
+        @media screen and (max-width: 700px)
+            font-size: 40.49px
+        @media screen and (max-width: 500px)
+            font-size: 33.49px
+        span
+            color: $color-1
+    .cards
+        margin-top: 60px
+        display: flex
+        flex-wrap: wrap
+        gap: 30px
+        justify-content: center
+        .card
+            position: relative
+            border-radius: 10px
+            padding: 30px
+            max-width: 400px
+            border: 2px solid $color-1
+            display: flex
+            flex-direction: column
+            gap: 15px
+            p
+                margin: 0
+                margin-top: 15px
+                color: black
+            img
+                position: absolute
+                top: -30px
+                left: 30px
+                height: 60px
+                width: 60px
+                border: 2px solid $color-1
+                border-radius: 999px
+            .name
+                font-family: "Open Sans", sans-serif
+                font-weight: 700
+                font-size: 19px
+                text-align: right
+                color: $color-1
+.block10
+    margin-top: 230px
+    max-width: 1700px
+    margin-left: auto
+    margin-right: auto
+    padding: 0 20px
+    position: relative
+    @media screen and (max-width: 860px)
+        margin-top: 80px
+    .is-circle
+        position: absolute
+        background-color: rgba(25, 103, 210, 0.5)
+        border-radius: 9999px
+        @media screen and (max-width: 848px)
+            display: none
+        &.is-1
+            top: 50px
+            right: 150px
+            height: 95px
+            width: 95px
+            @media screen and (max-width: 1107px)
+                right: 50px
+                height: 75px
+                width: 75px
+        &.is-2
+            top: 100px
+            right: 300px
+            width: 116px
+            height: 116px
+            @media screen and (max-width: 1107px)
+                right: 200px
+        &.is-3
+            top: 200px
+            right: 150px
+            width: 83px
+            height: 83px
+            @media screen and (max-width: 1107px)
+                right: 100px
+    h2
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 36.23px
+        max-width: 700px
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 32.23px
+        @media screen and (max-width: 1060px)
+            font-size: 29.22px
+        @media screen and (max-width: 700px)
+            font-size: 26.49px
+        @media screen and (max-width: 500px)
+            font-size: 24.49px
+        @media screen and (max-width: 1107px)
+            max-width: 500px
+    h3
+        font-family: "Open Sans", sans-serif
+        font-weight: 600
+        font-size: 16.2px
+        max-width: 700px
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 14px
+        @media screen and (max-width: 1060px)
+            font-size: 12px
+        @media screen and (max-width: 1107px)
+            max-width: 500px
+    h4
+        font-family: "Open Sans", sans-serif
+        font-weight: 700
+        font-size: 36.23px
+        max-width: 700px
+        margin-bottom: 0
+        padding-bottom: 0
+        @media screen and (max-width: 1250px)
+            font-size: 33.23px
+        @media screen and (max-width: 1060px)
+            font-size: 28px
+        @media screen and (max-width: 1107px)
+            max-width: 500px
+    .container
+        max-width: 1200px
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.162)
+        border-radius: 20px
+        margin: 0 auto
+        padding: 20px
+        @media screen and (max-width: 530px)
+            box-shadow: inherit
+            padding: 0px
+        .cards
+            display: flex
+            flex-wrap: wrap
+            gap: 15px
+            margin-top: 40px
+            justify-content: center
+            @media screen and (max-width: 1107px) and (min-width: 848px)
+                margin-top: 75px
+            @media screen and (max-width: 530px)
+                justify-content: start
+            .card
+                width: 100px
+                border-radius: 10px
+                background-color: #ffffff
+                display: flex
+                flex-direction: column
+                gap: 10px
+                font-family: "Open Sans", sans-serif
+                font-weight: 600
+                font-size: 16px
+                color: black
+                text-align: center
+                @media screen and (max-width: 630px)
+                    width: 50px
+
+        button
+            margin-top: 50px
+            border-radius: 10.91px
+            padding: 13.74px 8.02px
+            border: none
+            color: #ffffff
+            gap: 11.45px
+            background-color: $color-1
+            font-family: "Unbounded", sans-serif
+            font-weight: 400
+            font-size: 29px
+            line-height: 100%
+            margin-top: 45px
+            letter-spacing: 0%
+            display: flex
+            align-items: center
+            justify-content: space-between
+            margin-left: auto
+            margin-right: auto
+            cursor: pointer
+            transition: 0.15s background-color ease-in-out
+            @media screen and (max-width: 1042px)
+                font-size: 20.91px
+            @media screen and (max-width: 860px)
+                margin: 20px auto
+            @media screen and (max-width: 700px)
+                font-size: 17.43px
+            &:hover
+                background-color: #000000
+                color: #fff
+.block11
+    display: flex
+    gap: 20px
+    justify-content: space-between
+    padding: 20px
+    margin-top: 100px
+    @media screen and (max-width: 750px)
+        flex-direction: column
+    .left
+        display: flex
+        flex-direction: column
+        gap: 20px
+        width: 100%
+        h2
+            font-family: "Open Sans", sans-serif
+            font-weight: 900
+            font-size: 90.22px
+            max-width: 1200px
+            margin-top: 0
+            padding-top: 0
+            margin-bottom: 0
+            padding-bottom: 0
+            @media screen and (max-width: 1250px)
+                font-size: 67.22px
+            @media screen and (max-width: 1060px)
+                font-size: 50.22px
+            @media screen and (max-width: 700px)
+                font-size: 40.49px
+            @media screen and (max-width: 750px)
+                text-align: center
+        p
+            font-family: "Open Sans", sans-serif
+            font-weight: 700
+            margin-top: 0
+            font-size: 14.32px
+            @media screen and (max-width: 750px)
+                text-align: center
+            span
+                color: $color-1
+        img
+            max-width: 500px
+            width: 100%
+            @media screen and (max-width: 750px)
+                display: none
+    .right
+        width: 100%
+        .items
+            display: flex
+            flex-direction: column
+            gap: 30px
+            width: 100%
+            user-select: none
+            .item-top
+                width: 100%
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding: 15px 20px
+                gap: 10px
+                border: 2px solid #333
+                border-radius: 6px
+                cursor: pointer
+                span
+                    font-size: 2em

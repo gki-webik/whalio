@@ -1,7 +1,9 @@
 <template>
   <div class="max_container">
     <Header @change-lang="changeLang" :lang="lang"></Header>
-    <NuxtPage :lang="lang" />
+  </div>
+  <NuxtPage :lang="lang" />
+  <div class="max_container">
     <Footer @change-lang="changeLang" :lang="lang"></Footer>
   </div>
 </template>
