@@ -33,7 +33,14 @@
             </div>
           </div>
           <div class="right">
-            <img src="/public/assets/images/photo1.png" alt="photo" />
+            <!--  <video
+              src="/public/assets/videos/duothing.mp4"
+              muted
+              autoplay
+              loop
+            ></video> -->
+
+            <img src="/public/assets/images/duothing.gif" alt="photo" />
           </div>
         </div>
         <div class="block2">
@@ -128,10 +135,10 @@
         <div class="block5">
           <div class="skeleton" v-if="!jsonData"></div>
           <div class="skeleton" v-if="!jsonData"></div>
-          <img src="/public/assets/images/ai1.png" class="is-1" alt="ai_icon" />
-          <img src="/public/assets/images/ai2.png" class="is-2" alt="ai_icon" />
-          <img src="/public/assets/images/ai3.png" class="is-3" alt="ai_icon" />
-          <img src="/public/assets/images/ai4.png" class="is-4" alt="ai_icon" />
+          <img v-lazy="'/assets/images/ai1.png'" class="is-1" alt="ai_icon" />
+          <img v-lazy="'/assets/images/ai2.png'" class="is-2" alt="ai_icon" />
+          <img v-lazy="'/assets/images/ai3.png'" class="is-3" alt="ai_icon" />
+          <img v-lazy="'/assets/images/ai4.png'" class="is-4" alt="ai_icon" />
           <h2 v-if="jsonData">
             {{ jsonData.block5.h2.main }}
             <span>{{ jsonData.block5.h2.span }}</span>
@@ -334,7 +341,7 @@
               v-for="(item, index) in jsonData.block9.items"
               :key="index"
             >
-              <img :src="item.photo" alt="Ico" />
+              <img v-lazy="item.photo" alt="Ico" />
               <p>{{ item.text }}</p>
               <div class="name">{{ item.name }}</div>
             </div>
@@ -357,7 +364,7 @@
                 v-for="(item, index) in jsonData.block10.items"
                 :key="index"
               >
-                <img :src="item.photo" alt="AI" />
+                <img v-lazy="item.photo" alt="AI" />
                 {{ item.name }}
               </div>
             </div>
@@ -376,7 +383,7 @@
             </p>
             <div class="skeleton" v-if="!jsonData"></div>
             <div class="skeleton" v-if="!jsonData"></div>
-            <img src="/public/assets/images/kit.png" alt="kit" />
+            <img v-lazy="'/assets/images/kit.png'" alt="kit" />
           </div>
           <div class="right">
             <div class="skeleton" v-if="!jsonData"></div>
@@ -400,6 +407,61 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="block12">
+          <div class="container">
+            <div class="left">
+              <h2 v-if="jsonData">{{ jsonData.block12.h2 }}</h2>
+              <h3 v-if="jsonData">
+                {{ jsonData.block12.h3[0] }} <span>5 &#9733;</span>
+                {{ jsonData.block12.h3[1] }}
+              </h3>
+              <div class="skeleton" v-if="!jsonData"></div>
+              <div class="skeleton" v-if="!jsonData"></div>
+            </div>
+            <div class="right">
+              <div class="top">
+                <img v-lazy="'/assets/images/icop1.png'" alt="ico" />
+                <img v-lazy="'/assets/images/icop2.png'" alt="ico" />
+                <img v-lazy="'/assets/images/icop3.png'" alt="ico" />
+                <img v-lazy="'/assets/images/icop4.png'" alt="ico" />
+              </div>
+              <div class="bottom">
+                <img v-lazy="'/assets/images/r1.png'" alt="r1" />
+              </div>
+            </div>
+          </div>
+          <div class="cards" v-if="jsonData">
+            <div
+              class="card"
+              v-for="(item, index) in jsonData.block12.items"
+              :key="index"
+            >
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="text">{{ item.text }}</div>
+              <div class="name">{{ item.name }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="block13">
+          <div class="left">
+            <h2 v-if="jsonData">
+              {{ jsonData.block13.h2[0] }}
+              <span>{{ jsonData.block13.h2[1] }}</span>
+              {{ jsonData.block13.h2[2] }}
+            </h2>
+            <h3 v-if="jsonData">{{ jsonData.block13.h3 }}</h3>
+            <div class="skeleton" v-if="!jsonData"></div>
+            <div class="skeleton" v-if="!jsonData"></div>
+            <div class="skeleton" v-if="!jsonData"></div>
+            <button type="button" v-if="jsonData">
+              {{ jsonData.block13.button }}
+              <img src="/public/assets/images/ico0.png" alt="ico0" />
+            </button>
+          </div>
+          <div class="right">
+            <img src="/public/assets/images/phone2.png" alt="phone" />
           </div>
         </div>
       </div>
@@ -431,14 +493,14 @@ export default {
     currentLang() {
       return this.lang;
     },
+    jsonData() {
+      return jsonDataFile[this.currentLang];
+    },
   },
   methods: {
     toggleFAQ(index) {
       this.currentIndexFAQ = this.currentIndexFAQ === index ? null : index;
     },
-  },
-  mounted() {
-    this.jsonData = jsonDataFile[this.currentLang];
   },
   directives: {
     lazy: {

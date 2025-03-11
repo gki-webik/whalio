@@ -1,0 +1,116 @@
+@import colors
+
+footer
+    width: 100%
+    position: relative
+    margin: 0
+    padding: 20px
+    background-color: rgba(244, 244, 244, 1)
+    display: flex
+    justify-content: space-between
+    gap: 20px
+    @media screen and (max-width: 722px)
+        flex-direction: column
+    img.logo
+        max-height: 50px
+        @media screen and (max-width: 368px)
+            max-height: 37px
+    div.is-1
+        display: flex
+        gap: 30px
+        width: 100%
+        .imgs
+            display: flex
+            height: max-content
+            gap: 20px
+            align-items: center
+        @media screen and (max-width: 1310px)
+            flex-direction: column
+        .changeLang
+            display: flex
+            justify-content: center
+            align-items: center
+            font-size: 2.7em
+            cursor: pointer
+            user-select: none
+            font-weight: 600
+            height: max-content
+            position: relative
+            gap: 10px
+            .is-lang
+                display: flex
+                align-items: center
+                gap: 10px
+            @media screen and (max-width: 722px)
+                font-size: 2em
+            @media screen and (max-width: 368px)
+                font-size: 1.5em
+            &.is-active
+                .items
+                    display: flex !important
+            .items
+                position: absolute
+                background-color: rgba(244, 244, 244, 1)
+                outline: 3px solid #000
+                border-radius: 10px
+                display: none
+                flex-direction: column
+                right: 0
+                top: 60px
+                width: 115px
+                .item
+                    display: flex
+                    align-items: center
+                    justify-content: end
+                    font-size: 27px
+                    gap: 10px
+                    padding: 5px 3px
+                    @media screen and (max-width: 722px)
+                        font-size: 25px !important
+                    &.is-active
+                        background-color: #e4e4e4
+                    &:hover
+                        background-color: #d7d7d7
+                    img
+                        max-width: 40px
+                        width: 100%
+                        height: fit-content
+                        @media screen and (max-width: 722px)
+                            max-width: 25px
+            img
+                &.is-1
+                    max-width: 100px
+                    @media screen and (max-width: 722px)
+                        max-width: 25px
+                    @media screen and (max-width: 368px)
+                        max-width: 17px
+                &.is-2
+                    max-width: 50px
+                    @media screen and (max-width: 722px)
+                        max-width: 30px
+                    @media screen and (max-width: 368px)
+                        max-width: 23px
+        .nav
+            display: flex
+            gap: 20px
+            height: max-content
+            nav
+                display: flex
+                flex-direction: column
+                gap: 5px
+    div.is-2
+        display: flex
+        flex-direction: column
+        gap: 10px
+        max-width: 500px
+        width: 100%
+        .top
+            @media screen and (max-width: 722px)
+                display: flex
+                img
+                    width: 50%
+        .bottom
+            b
+                font-size: 15px
+            p
+                font-size: 13px

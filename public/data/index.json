@@ -236,6 +236,572 @@
                     "answer": "What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?What is Whalio?"
                 }
             ]
+        },
+        "block12": {
+            "h2": "Join 300,000+ learners around the world",
+            "h3": [
+                "More than 16,000",
+                "on Trustpilot"
+            ],
+            "items": [
+                {
+                    "text": "I needed assistance from my 15-year-old son to navigate the initial set of questions, as I wasn't sure how to begin. However, once I passed that first hurdle, I was eager to continue! Everything related to AI, chatbots, and LLMs is quite new to me, but after completing the first exercise and module, I'm very motivated to explore further and see how it can help me achieve my personal success goals.",
+                    "name": "@sofia_chwe"
+                },
+                {
+                    "text": "I needed assistance from my 15-year-old son to navigate the initial set of questions, as I wasn't sure how to begin. However, once I passed that first hurdle, I was eager to continue! Everything related to AI, chatbots, and LLMs is quite new to me, but after completing the first exercise and module, I'm very motivated to explore further and see how it can help me achieve my personal success goals.",
+                    "name": "@orange_s"
+                },
+                {
+                    "text": "I needed assistance from my 15-year-old son to navigate the initial set of questions, as I wasn't sure how to begin. However, once I passed that first hurdle, I was eager to continue! Everything related to AI, chatbots, and LLMs is quite new to me, but after completing the first exercise and module, I'm very motivated to explore further and see how it can help me achieve my personal success goals.",
+                    "name": "@Madison.m"
+                }
+            ]
+        },
+        "block13": {
+            "h2": [
+                "Start your AI journey with",
+                " Whalio ",
+                "today!"
+            ],
+            "h3": "Learn today, take control of your future, and grow your income with new digital skills and AI",
+            "button": "Start Now For Free"
+        }
+    },
+    "ru": {
+        "block1": {
+            "h1": {
+                "text": "Станьте мастером ",
+                "span": "ИИ"
+            },
+            "h2": "Узнайте, как ИИ может увеличить ваш доход",
+            "h3": "..и улучшить вашу жизнь",
+            "button": "Начать бесплатно",
+            "peoples": "Более 554 113+ человек присоединились"
+        },
+        "block2": {
+            "items": [
+                "Интерактивный формат курсов удерживал мой интерес, делая обучение не рутиной, а увлекательным путешествием.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. In beatae nisi odio neque nesciunt eum similique, accusantium quas at reiciendis, ipsum ipsam dolorem delectus aspernatur inventore sint tempora quisquam! Quasi.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            ]
+        },
+        "block3": {
+            "h2": {
+                "main": "Почему люди любят ",
+                "span": "Whalio"
+            },
+            "h3": "Тысячи пользователей доверяют Whalio для изучения ИИ. Получите инструменты, навыки и уверенность для карьерного роста.",
+            "list": [
+                {
+                    "title": "Быстро и легко",
+                    "description": "Изучайте ИИ всего 15 минут в день — идеально для любого возраста и уровня опыта."
+                },
+                {
+                    "title": "Разнообразные форматы обучения",
+                    "description": "Выбирайте аудиоуроки, пошаговые руководства и интерактивные курсы, которые подходят вашему стилю."
+                },
+                {
+                    "title": "Доступно в любое время и в любом месте",
+                    "description": "Наше приложение доступно в App Store и Play Market для обучения на ходу."
+                },
+                {
+                    "title": "Практично и полезно",
+                    "description": "Получите практический опыт с нашими инструментами ИИ, которые вы можете сразу применить для увеличения дохода."
+                }
+            ]
+        },
+        "block4": {
+            "h2": "Выберите свой путь",
+            "h3": "Изучите различные направления, где вы можете применить ИИ, чтобы добиться успеха в цифровом мире.",
+            "items": [
+                {
+                    "title": "Доход с ИИ",
+                    "description": "Научитесь использовать инструменты ИИ для создания новых источников дохода и увеличения заработка онлайн."
+                },
+                {
+                    "title": "Бизнес на основе ИИ",
+                    "description": "Используйте инструменты для автоматизации процессов, анализа данных и принятия более умных решений, экономя время и деньги."
+                },
+                {
+                    "title": "Создание контента с ИИ",
+                    "description": "Быстро создавайте качественный контент для блогов, сайтов и социальных сетей с помощью ИИ."
+                },
+                {
+                    "title": "Продуктивность с ИИ",
+                    "description": "Упростите повседневные задачи с помощью инструментов ИИ, которые экономят время и повышают эффективность."
+                },
+                {
+                    "title": "Партнерский маркетинг с ИИ",
+                    "description": "Используйте ИИ для поиска продуктов, продвижения и увеличения дохода от партнерских программ."
+                },
+                {
+                    "title": "Маркетинг с ИИ",
+                    "description": "Узнайте, как увеличить продажи с помощью инструментов ИИ для рекламы, социальных сетей и многого другого."
+                }
+            ]
+        },
+        "block5": {
+            "h2": {
+                "main": "Увеличьте свой потенциал дохода с ",
+                "span": "Whalio"
+            },
+            "button": "Начать бесплатно",
+            "mobileButton": [
+                "Telegram",
+                "Начать в вебе"
+            ]
+        },
+        "block6": {
+            "h2": [
+                "Как работает",
+                " Whalio"
+            ],
+            "h3": "Учитесь в своем темпе и узнайте, как ИИ и цифровые инструменты могут помочь вам расти",
+            "items": [
+                {
+                    "title": "Шаг 1: Получите персональный план обучения",
+                    "description": "Начните с определения своих уникальных целей и потребностей. На основе этого создается персонализированный план обучения, который поможет вам сосредоточиться на самых актуальных навыках и инструментах."
+                },
+                {
+                    "title": "Шаг 2: Изучите необходимые навыки",
+                    "description": "Наши простые уроки проведут вас через практическое обучение. Вы освоите инструменты ИИ и другие навыки, которые соответствуют вашим целям."
+                },
+                {
+                    "title": "Шаг 3: Освойте ИИ для своих целей",
+                    "description": "После изучения основ вы углубитесь в применение ИИ для достижения своих личных и профессиональных целей."
+                }
+            ],
+            "plan": {
+                "title": "Ваш план готов!",
+                "description": "Давайте начнем шаги, которые помогут вам стать экспертом в ИИ.",
+                "name": "Мастерство ИИ",
+                "structure": "28 модулей",
+                "steps": [
+                    "НАЧАТЬ",
+                    "Шаг 1",
+                    "Шаг 2",
+                    "Шаг 3"
+                ]
+            },
+            "steps": [
+                "НАЧАТЬ",
+                "Основы использования",
+                "Создание простых запросов",
+                "Отлично!",
+                "Продолжить"
+            ]
+        },
+        "block7": {
+            "h2": [
+                "Whalio ",
+                "в действии"
+            ],
+            "items": [
+                {
+                    "count": "554k+",
+                    "totalCount": "554 123",
+                    "description": "Пользователей освоили новые навыки"
+                },
+                {
+                    "count": "3 732k+",
+                    "totalCount": "3 732 501",
+                    "description": "Минут контента просмотрено"
+                },
+                {
+                    "count": "59k+",
+                    "totalCount": "59 065",
+                    "description": "Запросов ИИ создано"
+                }
+            ]
+        },
+        "block8": {
+            "h2": "Получите сертификат, подтверждающий ваши навыки ИИ",
+            "p": "Пройдите курс по ИИ, чтобы подчеркнуть свою экспертизу. Это доказательство ценных навыков, которые помогут вам справляться с вызовами и достигать целей.",
+            "button": "Получить сертификат сегодня"
+        },
+        "block9": {
+            "h2": [
+                "Узнайте, как",
+                " Whalio ",
+                "меняет жизни"
+            ],
+            "items": [
+                {
+                    "photo": "/assets/images/p4.jpg",
+                    "text": "Как человек, разбирающийся в ИИ, я хотел углубить свои знания. Whalio упростил этот процесс с помощью четких и понятных курсов.",
+                    "name": "Регина Браун"
+                },
+                {
+                    "photo": "/assets/images/p6.jpg",
+                    "text": "Я искала уроки ИИ для достижения карьерных целей. Whalio предлагает пошаговый подход, который мотивирует.",
+                    "name": "Аманда К."
+                },
+                {
+                    "photo": "/assets/images/p7.jpg",
+                    "text": "Я получила ценные знания и практические навыки, которые могу применить в своей работе.",
+                    "name": "Кори Рейн"
+                }
+            ]
+        },
+        "block10": {
+            "h2": "Изучайте ИИ каждый день в нашем 29-дневном вызове",
+            "h3": "Не позволяйте вашим целям вас перегружать. Освойте навыки ИИ, адаптированные под ваши задачи.",
+            "h4": "Мастерство ИИ",
+            "items": [
+                {
+                    "photo": "/assets/images/ai8.png",
+                    "name": "День 1"
+                },
+                {
+                    "photo": "/assets/images/ai9.png",
+                    "name": "День 2"
+                },
+                {
+                    "photo": "/assets/images/ai10.png",
+                    "name": "День 3"
+                },
+                {
+                    "photo": "/assets/images/ai11.png",
+                    "name": "День 4"
+                },
+                {
+                    "photo": "/assets/images/ai12.png",
+                    "name": "День 5"
+                },
+                {
+                    "photo": "/assets/images/ai13.png",
+                    "name": "День 6"
+                },
+                {
+                    "photo": "/assets/images/ai14.png",
+                    "name": "День 7"
+                },
+                {
+                    "photo": "/assets/images/ai15.png",
+                    "name": "День 8"
+                }
+            ],
+            "button": "Присоединиться к вызову"
+        },
+        "block11": {
+            "h2": "Часто задаваемые вопросы",
+            "p": [
+                "Найдите ответы на популярные вопросы о ",
+                "Whalio"
+            ],
+            "items": [
+                {
+                    "question": "Что такое Whalio?",
+                    "answer": "Whalio — это платформа для изучения ИИ."
+                },
+                {
+                    "question": "Как скачать и использовать Whalio?",
+                    "answer": "Приложение доступно в App Store и Play Market."
+                },
+                {
+                    "question": "Как войти в Whalio?",
+                    "answer": "Используйте свои учетные данные для входа."
+                }
+            ]
+        },
+        "block12": {
+            "h2": "Присоединяйтесь к 300 000+ учащихся по всему миру",
+            "h3": [
+                "Более 16 000",
+                "на Trustpilot"
+            ],
+            "items": [
+                {
+                    "text": "Мне помог мой 15-летний сын, чтобы начать. После первого модуля я была мотивирована продолжать!",
+                    "name": "@sofia_chwe"
+                },
+                {
+                    "text": "Мне помог мой 15-летний сын, чтобы начать. После первого модуля я была мотивирована продолжать!",
+                    "name": "@orange_s"
+                },
+                {
+                    "text": "Мне помог мой 15-летний сын, чтобы начать. После первого модуля я была мотивирована продолжать!",
+                    "name": "@Madison.m"
+                }
+            ]
+        },
+        "block13": {
+            "h2": [
+                "Начните свое путешествие с",
+                " Whalio ",
+                "сегодня!"
+            ],
+            "h3": "Учитесь сегодня, управляйте своим будущим и увеличивайте доход с новыми навыками.",
+            "button": "Начать бесплатно"
+        }
+    },
+    "es": {
+        "block1": {
+            "h1": {
+                "text": "Conviértete en el maestro de la ",
+                "span": "IA"
+            },
+            "h2": "Aprende cómo la IA puede aumentar tus ingresos",
+            "h3": "..y mejorar tu vida",
+            "button": "Comienza ahora gratis",
+            "peoples": "Más de 554 113+ personas se unieron"
+        },
+        "block2": {
+            "items": [
+                "La naturaleza interactiva de los cursos me mantuvo comprometido, haciendo que aprender fuera más un viaje agradable que una tarea.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. In beatae nisi odio neque nesciunt eum similique, accusantium quas at reiciendis, ipsum ipsam dolorem delectus aspernatur inventore sint tempora quisquam! Quasi.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            ]
+        },
+        "block3": {
+            "h2": {
+                "main": "Por qué la gente ama ",
+                "span": "Whalio"
+            },
+            "h3": "Miles de usuarios confían en Whalio para aprender IA. Obtén las herramientas, habilidades y confianza para crecer en tu carrera.",
+            "list": [
+                {
+                    "title": "Rápido y fácil de seguir",
+                    "description": "Aprende IA en solo 15 minutos al día, perfecto para cualquier edad o nivel de experiencia."
+                },
+                {
+                    "title": "Múltiples formatos de aprendizaje",
+                    "description": "Elige entre lecciones de audio, guías paso a paso y cursos interactivos que se adapten a tu estilo."
+                },
+                {
+                    "title": "Accesible en cualquier momento y lugar",
+                    "description": "Nuestra aplicación está disponible en App Store y Play Market para aprender sobre la marcha."
+                },
+                {
+                    "title": "Práctico y aplicable",
+                    "description": "Obtén experiencia práctica con nuestras herramientas de IA que puedes aplicar de inmediato para aumentar tu potencial de ingresos."
+                }
+            ]
+        },
+        "block4": {
+            "h2": "Elige tu camino",
+            "h3": "Explora diferentes caminos donde puedes aplicar la IA para tener éxito en el mundo digital de hoy.",
+            "items": [
+                {
+                    "title": "Ingresos con IA",
+                    "description": "Aprende a usar herramientas de IA para crear nuevas fuentes de ingresos y aumentar tus ganancias en línea."
+                },
+                {
+                    "title": "Negocios impulsados por IA",
+                    "description": "Usa herramientas para automatizar flujos de trabajo, analizar datos y tomar decisiones más inteligentes que ahorren tiempo y dinero."
+                },
+                {
+                    "title": "Creación de contenido con IA",
+                    "description": "Produce rápidamente contenido de alta calidad para blogs, sitios web y redes sociales con IA."
+                },
+                {
+                    "title": "Productividad con IA",
+                    "description": "Simplifica tus tareas diarias con herramientas de IA que ahorran tiempo y aumentan la eficiencia."
+                },
+                {
+                    "title": "Marketing de afiliados con IA",
+                    "description": "Usa IA para encontrar productos, promociones y aumentar fácilmente tus ingresos de afiliados."
+                },
+                {
+                    "title": "Marketing con IA",
+                    "description": "Aprende cómo aumentar las ventas con herramientas impulsadas por IA para anuncios, redes sociales y más."
+                }
+            ]
+        },
+        "block5": {
+            "h2": {
+                "main": "Aumenta tu potencial de ingresos con ",
+                "span": "Whalio"
+            },
+            "button": "Comienza ahora gratis",
+            "mobileButton": [
+                "Telegram",
+                "Iniciar Web"
+            ]
+        },
+        "block6": {
+            "h2": [
+                "Cómo funciona",
+                " Whalio"
+            ],
+            "h3": "Aprende a tu propio ritmo y descubre cómo la IA y las herramientas digitales pueden ayudarte a crecer",
+            "items": [
+                {
+                    "title": "Paso 1: Obtén tu plan de aprendizaje personal",
+                    "description": "Comienza definiendo tus objetivos y necesidades únicas. A partir de ahí, se crea un plan de aprendizaje personalizado para ayudarte a enfocarte en las habilidades y herramientas más relevantes."
+                },
+                {
+                    "title": "Paso 2: Aprende las habilidades que necesitas",
+                    "description": "Nuestras lecciones fáciles de seguir te guiarán a través de un aprendizaje práctico. Dominarás las herramientas de IA y otras habilidades que se ajusten a tus objetivos."
+                },
+                {
+                    "title": "Paso 3: Domina la IA para tus objetivos",
+                    "description": "Una vez que hayas aprendido lo básico, profundizarás en la aplicación de la IA para lograr tus objetivos personales y profesionales."
+                }
+            ],
+            "plan": {
+                "title": "¡Tu plan está listo!",
+                "description": "Vamos a sumergirnos en los pasos que tomarás para convertirte en un experto en IA.",
+                "name": "Dominio de la IA",
+                "structure": "28 módulos",
+                "steps": [
+                    "COMENZAR",
+                    "Paso 1",
+                    "Paso 2",
+                    "Paso 3"
+                ]
+            },
+            "steps": [
+                "COMENZAR",
+                "Uso básico",
+                "Creación de solicitudes simples",
+                "¡Genial!",
+                "Continuar"
+            ]
+        },
+        "block7": {
+            "h2": [
+                "Whalio ",
+                "en acción"
+            ],
+            "items": [
+                {
+                    "count": "554k+",
+                    "totalCount": "554 123",
+                    "description": "Usuarios aprendieron nuevas habilidades"
+                },
+                {
+                    "count": "3 732k+",
+                    "totalCount": "3 732 501",
+                    "description": "Minutos de contenido consumidos"
+                },
+                {
+                    "count": "59k+",
+                    "totalCount": "59 065",
+                    "description": "Solicitudes de IA creadas"
+                }
+            ]
+        },
+        "block8": {
+            "h2": "Obtén un certificado que demuestre tus habilidades en IA",
+            "p": "Completa tu curso de IA para destacar tu experiencia. Es una prueba de las valiosas habilidades que has adquirido para enfrentar desafíos y alcanzar tus metas.",
+            "button": "Obtén tu certificado hoy"
+        },
+        "block9": {
+            "h2": [
+                "Mira cómo",
+                " Whalio ",
+                "cambia vidas"
+            ],
+            "items": [
+                {
+                    "photo": "/assets/images/p4.jpg",
+                    "text": "Como alguien con conocimientos en IA, quería mejorar mi comprensión. Whalio simplificó este proceso con cursos claros y fáciles de seguir.",
+                    "name": "Regina Brown"
+                },
+                {
+                    "photo": "/assets/images/p6.jpg",
+                    "text": "Estaba buscando lecciones de IA para alcanzar mis objetivos profesionales. Whalio ofrece un enfoque paso a paso que motiva.",
+                    "name": "Amanda K."
+                },
+                {
+                    "photo": "/assets/images/p7.jpg",
+                    "text": "Obtuve conocimientos valiosos y habilidades prácticas que puedo aplicar en mi trabajo.",
+                    "name": "Corey Rein"
+                }
+            ]
+        },
+        "block10": {
+            "h2": "Aprende IA todos los días en nuestro desafío de 29 días",
+            "h3": "No dejes que tus metas te abrumen. Aprende habilidades de IA adaptadas a tus necesidades y tareas diarias.",
+            "h4": "Dominio de la IA",
+            "items": [
+                {
+                    "photo": "/assets/images/ai8.png",
+                    "name": "Día 1"
+                },
+                {
+                    "photo": "/assets/images/ai9.png",
+                    "name": "Día 2"
+                },
+                {
+                    "photo": "/assets/images/ai10.png",
+                    "name": "Día 3"
+                },
+                {
+                    "photo": "/assets/images/ai11.png",
+                    "name": "Día 4"
+                },
+                {
+                    "photo": "/assets/images/ai12.png",
+                    "name": "Día 5"
+                },
+                {
+                    "photo": "/assets/images/ai13.png",
+                    "name": "Día 6"
+                },
+                {
+                    "photo": "/assets/images/ai14.png",
+                    "name": "Día 7"
+                },
+                {
+                    "photo": "/assets/images/ai15.png",
+                    "name": "Día 8"
+                }
+            ],
+            "button": "Únete a nuestro desafío"
+        },
+        "block11": {
+            "h2": "Preguntas frecuentes",
+            "p": [
+                "Encuentra respuestas a preguntas comunes sobre ",
+                "Whalio"
+            ],
+            "items": [
+                {
+                    "question": "¿Qué es Whalio?",
+                    "answer": "Whalio es una plataforma para aprender IA."
+                },
+                {
+                    "question": "¿Cómo descargar y usar Whalio?",
+                    "answer": "La aplicación está disponible en App Store y Play Market."
+                },
+                {
+                    "question": "¿Cómo iniciar sesión en Whalio?",
+                    "answer": "Usa tus credenciales para iniciar sesión."
+                }
+            ]
+        },
+        "block12": {
+            "h2": "Únete a más de 300,000 estudiantes en todo el mundo",
+            "h3": [
+                "Más de 16,000",
+                "en Trustpilot"
+            ],
+            "items": [
+                {
+                    "text": "Mi hijo de 15 años me ayudó a comenzar. Después del primer módulo, ¡estaba motivada para continuar!",
+                    "name": "@sofia_chwe"
+                },
+                {
+                    "text": "Mi hijo de 15 años me ayudó a comenzar. Después del primer módulo, ¡estaba motivada para continuar!",
+                    "name": "@orange_s"
+                },
+                {
+                    "text": "Mi hijo de 15 años me ayudó a comenzar. Después del primer módulo, ¡estaba motivada para continuar!",
+                    "name": "@Madison.m"
+                }
+            ]
+        },
+        "block13": {
+            "h2": [
+                "Comienza tu viaje con",
+                " Whalio ",
+                "hoy mismo!"
+            ],
+            "h3": "Aprende hoy, toma el control de tu futuro y aumenta tus ingresos con nuevas habilidades digitales.",
+            "button": "Comienza ahora gratis"
         }
     }
 }

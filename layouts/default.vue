@@ -3,9 +3,7 @@
     <Header @change-lang="changeLang" :lang="lang"></Header>
   </div>
   <NuxtPage :lang="lang" />
-  <div class="max_container">
-    <Footer @change-lang="changeLang" :lang="lang"></Footer>
-  </div>
+  <Footer @change-lang="changeLang" :lang="lang"></Footer>
 </template>
 <style>
 @import url("/public//assets/styles/dist/min/all.min.css");
