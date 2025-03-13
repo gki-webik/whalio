@@ -1,0 +1,20 @@
+{
+    "ru": {
+        "h1": "Добро пожаловать",
+        "button": "Зарегистрироваться",
+        "p": "Есть аккаунт?",
+        "pa": "Авторизация"
+    },
+    "en": {
+        "h1": "Welcome",
+        "button": "Sign Up",
+        "p": "Have an account?",
+        "pa": "Login"
+    },
+    "es": {
+        "h1": "Bienvenido",
+        "button": "Registrarse",
+        "p": "¿Tienes una cuenta?",
+        "pa": "Iniciar sesión"
+    }
+}

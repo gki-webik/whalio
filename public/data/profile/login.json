@@ -1,0 +1,23 @@
+{
+    "en": {
+        "h1": "Welcome Back",
+        "pswText": "Forgot password?",
+        "button": "Sign in",
+        "p": "Don’t have an account?",
+        "pa": "Registration"
+    },
+    "ru": {
+        "h1": "С возвращением",
+        "pswText": "Забыли пароль?",
+        "button": "Войти",
+        "p": "Нет аккаунта?",
+        "pa": "Регистрация"
+    },
+    "es": {
+        "h1": "Bienvenido de nuevo",
+        "pswText": "¿Olvidaste tu contraseña?",
+        "button": "Iniciar sesión",
+        "p": "¿No tienes una cuenta?",
+        "pa": "Registro"
+    }
+}

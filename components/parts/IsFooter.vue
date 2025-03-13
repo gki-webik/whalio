@@ -85,16 +85,16 @@
         <div class="nav">
           <nav v-if="jsonData">
             <b>{{ jsonData[0] }}</b>
-            <a href="">{{ jsonData[1] }}</a>
-            <a href="">{{ jsonData[2] }}</a>
-            <a href="">{{ jsonData[3] }}</a>
+            <router-link to="/">{{ jsonData[1] }}</router-link>
+            <router-link to="">{{ jsonData[2] }}</router-link>
+            <router-link to="">{{ jsonData[3] }}</router-link>
           </nav>
           <nav v-if="jsonData">
             <b>{{ jsonData[4] }}</b>
-            <a href="">{{ jsonData[5] }}</a>
-            <a href="">{{ jsonData[6] }}</a>
-            <a href="">{{ jsonData[7] }}</a>
-            <a href="">{{ jsonData[8] }}</a>
+            <router-link to="">{{ jsonData[5] }}</router-link>
+            <router-link to="">{{ jsonData[6] }}</router-link>
+            <router-link to="">{{ jsonData[7] }}</router-link>
+            <router-link to="">{{ jsonData[8] }}</router-link>
           </nav>
         </div>
       </div>
@@ -124,7 +124,6 @@ export default {
   data() {
     return {
       changeLangActive: false,
-      jsonData: null,
     };
   },
   props: {

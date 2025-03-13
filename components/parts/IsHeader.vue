@@ -7,13 +7,15 @@
             <img src="/public/assets/images/logo.png" alt="Logotip" />
           </div>
           <nav class="is-1" v-if="jsonData">
-            <a href="">{{ jsonData[0] }}</a>
-            <a href="">{{ jsonData[1] }}</a>
+            <router-link to="/">{{ jsonData[0] }}</router-link>
+            <router-link to="">{{ jsonData[1] }}</router-link>
           </nav>
         </div>
         <nav class="is-2" v-if="jsonData">
-          <a href="">{{ jsonData[2] }}</a>
-          <a href="" class="is-blue">{{ jsonData[3] }}</a>
+          <router-link to="/profile/login">{{ jsonData[2] }}</router-link>
+          <router-link to="/profile/signup" class="is-blue">{{
+            jsonData[3]
+          }}</router-link>
         </nav>
       </div>
     </header>
@@ -25,13 +27,8 @@
 </style>
 
 <script>
-import jsonDataFile from "~/public/data/footer.json";
+import jsonDataFile from "~/public/data/header.json";
 export default {
-  data() {
-    return {
-      jsonData: null,
-    };
-  },
   props: {
     lang: {
       type: String,

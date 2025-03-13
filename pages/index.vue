@@ -478,7 +478,6 @@ import jsonDataFile from "~/public/data/index.json";
 export default {
   data() {
     return {
-      jsonData: null,
       currentIdSlider: 0,
       currentIndexFAQ: null,
     };
